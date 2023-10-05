@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="build/main.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="w-100">
+<div class="container d-flex  w-100 app">
+  <!-- Sign-up form start -->
+
+<div class="container w-50 conteudo">
+  <h2> Stay updated!</h2>
+
+  <p> Join 60,000+ product managers receiving monthly updates on:</p>
+
+  <ul>
+ <li> <img src="assets/images/check-lg.svg" alt="">Product discovery and building what matters</li>
+  <li> <img src="assets/images/check-lg.svg" alt="">Measuring to ensure updates are a success</li>
+  <li> <img src="assets/images/check-lg.svg" alt="">And much more!</li>
+ 
+  <div class="input mt-5" id="form_contato">
+ 
+  <span>
+  Email address</span> <br>
+
+ <input id="cemail" type="email" name="email" required class="form-control w-100" placeholder="emai@company.com.br">  <br>
+ <button id="validar" class="btn btn-outline-primary w-100" style="margin-top: 5px ;">Cadastrar na Newsletter</button></div>
+</ul>
+
+
+ 
+
+  <!-- Sign-up form end -->
+
+  <!-- Success message start
+
+  Thanks for subscribing!
+
+  A confirmation email has been sent to ash@loremcompany.com. 
+  Please open it and click the button inside to confirm your subscription. -->
+</div>
+
+<div class="container img">
+    <img class="" src="assets/images/illustration-sign-up-desktop.svg" alt="">
+  </div>
+</div>
+
+  <!-- Success message end -->
+  
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <script src="build/scripts/jquery.mask.min.js"></script>
+  <script src="build/scripts/config.js"></script>
+
+</body>
+</html>
